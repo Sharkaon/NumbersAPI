@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+	  <link rel="stylesheet" href="./css/style.css">
+	  <title>Demonstração API</title>
+    
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div id="content">
+        <h1>Numbers Facts</h1>
+        <p>Choose a type of fact and a number, or leave it empty for a random number, then click in "Get Fact"<br>(If nothing is found about the number, the next closest number will be used instead)</p>
+        <div id="formulario">
+          <form>
+            <select id="tipo">
+              <option value="math">Math</option>
+              <option value="trivia">Trivia</option>
+              <option value="year">Year</option>
+            </select>
+            <input id="number" type="number"></input>
+            <input type='button' id="enviar" value="Get Fact">
+          </form>  
+        </div>      
+
+        <div id='tabela'>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Type</th>
+                <th scope="col">Fact</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
+

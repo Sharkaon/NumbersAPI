@@ -1,0 +1,18 @@
+<?xml version=”1.0”?>
+<produtos>
+  <produto>
+    <id>1</id>
+    <nome>Cantil para camping</nome>
+    <preço>R$ 50,00 </preço>
+  </produto>
+  <produto>
+    <id>2</id>
+    <nome>Mochila de 35 litros</nome>
+    <preço>R$ 150,00 </preço>
+  </produto>
+  <produto>
+    <id>2</id>
+    <nome>Bota de caminhada</nome>
+    <preço>R$ 210,00 </preço>
+  </produto>
+</produtos>
